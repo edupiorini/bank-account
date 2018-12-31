@@ -11,8 +11,8 @@ public class BankAccount {
           
     //Methods
         public BankAccount(){ // Constructor 
-            this.balance = 0f;
-            this.status = false;
+            setBalance(0);
+            setStatus(false);
     
         }
     
